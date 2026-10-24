@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "serverName": "Vice City",
+    "tagline": "مدينة لا تنام… رول بلاي عربي بمستوى آخر",
+    "about": "Vice City سيرفر رول بلاي عربي يقدّم تجربة واقعية متكاملة: عصابات ومنظمات، شرطة ونظام قضائي، وظائف واقتصاد، وإدارة تتابع كل صغيرة وكبيرة لتبقى التجربة عادلة وممتعة للجميع.",
+    "discord": "",
+    "connectIp": "",
+    "currency": "ر.س",
+    "checkoutNote": "بعد إرسال الطلب سيتواصل معك فريق الإدارة عبر الديسكورد الرسمي لإتمام الدفع والتسليم.",
+    "stats": "25|أقصى عدد لأعضاء العصابة\n3|الحد الأقصى للرهائن\n15|دقيقة مدة الرهن"
+  },
+  "users": [
+    {
+      "id": "1d5568e82fae08c6",
+      "username": "owner",
+      "name": "المالك",
+      "role": "owner",
+      "perms": [
+        "products",
+        "orders",
+        "users",
+        "settings"
+      ],
+      "disabled": false,
+      "password": "2f276d1287a7b6af2eb9eab6ecadb2fb:92585201b7403ae6c50b26d202cdd3b13693eac293ad52449eaef1a4d231bf2960aaa7661bffa61f0c55ffbcb0825caec388e44a07bdad3099c03c4c70ae0d40",
+      "createdAt": 1792811459729
+    }
+  ],
+  "products": [
+    {
+      "id": "3bce9d2287be8bc3",
+      "name": "باقة VIP برونزية",
+      "description": "منتج تجريبي — احذفه أو عدّله من لوحة التحكم.",
+      "price": 25,
+      "category": "باقات",
+      "image": "",
+      "active": true,
+      "featured": true,
+      "createdAt": 1792811459729
+    },
+    {
+      "id": "f39444eb606f7731",
+      "name": "باقة VIP ذهبية",
+      "description": "منتج تجريبي — احذفه أو عدّله من لوحة التحكم.",
+      "price": 60,
+      "category": "باقات",
+      "image": "",
+      "active": true,
+      "featured": true,
+      "createdAt": 1792811459730
+    },
+    {
+      "id": "90994993284647da",
+      "name": "تغيير الاسم",
+      "description": "منتج تجريبي — احذفه أو عدّله من لوحة التحكم.",
+      "price": 15,
+      "category": "خدمات",
+      "image": "",
+      "active": true,
+      "featured": false,
+      "createdAt": 1792811459731
+    }
+  ],
+  "orders": [
+    {
+      "id": "863a808716efdcb1",
+      "number": 1001,
+      "createdAt": 1792811749787,
+      "status": "new",
+      "customer": {
+        "name": "dfhg",
+        "discord": "hgjk",
+        "gameId": "ghj"
+      },
+      "note": "fgjhkl",
+      "items": [
+        {
+          "id": "f39444eb606f7731",
+          "name": "باقة VIP ذهبية",
+          "price": 60,
+          "qty": 1
+        }
+      ],
+      "total": 60
+    }
+  ]
+}
